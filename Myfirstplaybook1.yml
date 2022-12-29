@@ -1,5 +1,5 @@
 ---
-- hosts: webservers
+- hosts: appservers
   become: yes
   tasks:
   - name: i want to install git on ubuntu
