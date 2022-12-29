@@ -1,0 +1,14 @@
+---
+- hosts: 
+  become: yes
+  tasks:
+  - name: i want to install git on ubuntu
+    apt:
+      name: git
+      state: present
+
+  - name: i want to install apache2 webserver
+    apt:
+      name: apache2
+      state: present
+          
